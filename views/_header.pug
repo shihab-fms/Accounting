@@ -1,0 +1,153 @@
+.row.header
+  nav.navbar    
+    span.logo Alif Enterprise
+    if user
+      ul
+        // For Responsive
+        li.icon--res
+          a(href='')
+            i.fa.fa-bars
+        // Useable link in below
+        li
+          a(href='#')
+            i.fa.fa-sitemap
+            span Branch
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.2s')
+                a(href='')
+                  i.fa.fa-plus
+                  span Add Branch
+              li.list-item(style='transition: 0.4s')
+                a(href='/allBranch')
+                  i.fa.fa-search
+                  span Search Branch
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-refresh
+                  span Update Branch
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-trash
+                  span Delete Branch
+        li
+          a(href='#')
+            i.fa.fa-dollar
+            span Payment
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.2s')
+                a(href='')
+                  i.fa.fa-plus
+                  span Add Payment
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-search
+                  span Search Payment
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-refresh
+                  span Update Payment
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-trash
+                  span Delete Payment
+        li
+          a(href='#')
+            i.fa.fa-diamond
+            span Ledger
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.2s')
+                a(href='')
+                  i.fa.fa-plus
+                  span Add Ledger
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-search
+                  span Search Ledger
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-refresh
+                  span Update Ledger
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-trash
+                  span Delete Ledger
+        li
+          a(href='#')
+            i.fa.fa-buysellads
+            span Purchase
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.2s')
+                a(href='')
+                  i.fa.fa-plus
+                  span Add Purchase
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-search
+                  span Search Purchase
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-refresh
+                  span Update Purchase
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-trash
+                  span Delete Purchase
+        li
+          a(href='#')
+            i.fa.fa-user-circle
+            span User
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.4s')
+                a(href='')
+                  i.fa.fa-cog
+                  span Settings
+              li.list-item(style='transition: 0.4s')
+                a.nav__el--logout(href='')
+                  i.fa.fa-sign-out
+                  span Log Out
+
+    else 
+      ul
+        li.icon--res
+          a(href='')
+            i.fa.fa-bars
+        li
+          a(href='#')
+            i.fa.fa-home
+            span Home
+        li
+          a(href='#')
+            i.fa.fa-phone-square
+            span Contact
+        li
+          a(href='#')
+            i.fa.fa-adn
+            span About
+        li
+          a(href='#')
+            i.fa.fa-image
+            span Potfolio
+        li
+          a(href='#')
+            i.fa.fa-feed
+            span Feedback
+        li
+          a(href='#')
+            i.fa.fa-users
+            span Portal
+          .sub-menu
+            ul.list
+              li.list-item(style='transition: 0.2s')
+                a(href='./login')
+                  i.fa.fa-sign-in
+                  span Log In
+              li.list-item(style='transition: 0.4s')
+                a(href='./signup')
+                  i.fa.fa-user-circle
+                  span Sign Up
+      
