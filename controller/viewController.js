@@ -35,6 +35,7 @@ exports.searchBranch = catchAsync(async (req, res, next) => {
     },
   ]);
 
+// cinn
   if (!branchs) return next(new AppError('Sorry we dont find data', 404));
 
   // 2) Sending data to fontend
